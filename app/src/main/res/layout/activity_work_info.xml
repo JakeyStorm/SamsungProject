@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkInfoActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="378dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/colorBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/InfoName"
+            android:layout_width="166dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="111dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:text="Цена"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/InfoName"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Процессор"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Кулер"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Материнская плата"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Оперативная память"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Видиокарта"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="HDD диск"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="SSD диск"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Оптический привод"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Корпус"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Блок питания"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/InfoPrice"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/InfoName" />
+
+        <TextView
+            android:id="@+id/InfoCpu"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/InfoPrice" />
+
+        <TextView
+            android:id="@+id/InfoCooler"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/InfoCpu" />
+
+        <TextView
+            android:id="@+id/InfoMotherboard"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/InfoCooler" />
+
+        <TextView
+            android:id="@+id/InfoRam"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/InfoMotherboard" />
+
+        <TextView
+            android:id="@+id/InfoVideoCard"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/InfoRam" />
+
+        <TextView
+            android:id="@+id/InfoHDD"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/InfoVideoCard" />
+
+        <TextView
+            android:id="@+id/InfoSSD"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/InfoHDD" />
+
+        <TextView
+            android:id="@+id/InfoOpticalDrive"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/InfoSSD" />
+
+        <TextView
+            android:id="@+id/InfoHousing"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/InfoOpticalDrive" />
+
+        <TextView
+            android:id="@+id/InfoPowerSupply"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="26dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/InfoHousing" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
