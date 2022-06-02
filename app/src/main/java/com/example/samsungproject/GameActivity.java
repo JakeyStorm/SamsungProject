@@ -35,7 +35,7 @@ public class GameActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        loadProduct();
+        new MyThread().start();
     }
     protected void loadProduct() {
         ApiService api = RetroClient.getApiService();
@@ -135,5 +135,18 @@ public class GameActivity extends AppCompatActivity {
             super.onAttachedToRecyclerView(recyclerView);
         }
 
+    }
+    class MyThread extends  Thread{
+        @Override
+        public void run() {
+            while (true){
+                loadProduct();
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

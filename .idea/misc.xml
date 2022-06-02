@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/drawable/background_button.xml" value="0.2325" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/drawable/background_button_2.xml" value="0.2325" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/drawable/button_game.xml" value="0.2325" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/drawable/button_work.xml" value="0.2325" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/activity_game.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/activity_reg.xml" value="0.176" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/activity_work_info.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/item_pc.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/User/SamsungProject/SamsungProject/app/src/main/res/layout/item_pc_info.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/User/SamsungProject/app/src/main/res/drawable-v24/background_button.xml" value="0.191" />
         <entry key="..\:/Users/User/SamsungProject/app/src/main/res/drawable/background_button.xml" value="0.191" />
         <entry key="..\:/Users/User/SamsungProject/app/src/main/res/layout/activity_game.xml" value="0.16032608695652173" />

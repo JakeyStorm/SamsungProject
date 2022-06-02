@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197728113794",
+    "project_id": "samsungproject-79c35",
+    "storage_bucket": "samsungproject-79c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197728113794:android:f1facd03695fd9b89cd09b",
+        "android_client_info": {
+          "package_name": "com.example.samsungproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197728113794-h2e7lond4k38vul2bgtcrfk6l2jsrch1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv2PpdLWHKsRqalnaFm9mXLEGFKDWqjHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197728113794-h2e7lond4k38vul2bgtcrfk6l2jsrch1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
